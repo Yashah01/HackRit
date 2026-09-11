@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    container_name: college-life-scheduler
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./college_scheduler.db
+      - JWT_SECRET_KEY=production_secret_key_change_in_prod
+    volumes:
+      - scheduler-data:/app/backend
+    restart: unless-stopped
+
+volumes:
+  scheduler-data:
