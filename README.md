@@ -2,6 +2,11 @@
 
 > **"A student does not manage every occurrence individually. They define how their life works, and the system builds the schedule for them."**
 
+[![Vercel Deployment](https://img.shields.io/badge/Deployed%20on-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://college-life-scheduler-netlify.vercel.app)
+
+🌐 **Live Demo (Vercel)**: [https://college-life-scheduler-netlify.vercel.app](https://college-life-scheduler-netlify.vercel.app)
+
+
 **College Life Scheduler** is a full-stack, multi-user scheduling and academic planning system designed specifically for the unique time management patterns of college students. It combines **recurring weekly routines** (College, Gym, Tuition) within **time bounded planning periods**, merges them with **one time tests** and **multi day trips or fests**, automatically computes attendance percentages with safe bunk limits, and presents a responsive calendar for Desktop (Windows, Mac, Linux) and Mobile (Android, iOS).
 
 ---
